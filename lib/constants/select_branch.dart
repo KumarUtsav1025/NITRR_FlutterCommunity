@@ -1,7 +1,7 @@
-List<String> Branch=[
-  'BIO-MED',
-  'BIO-TECH',
-  'CHEM',
+List<String> Branch = [
+  'BIO-MED', //Choose 0
+  'BIO-TECH', //Choose 1
+  'CHEM', //Choose 2
   'CIVIL',
   'CSE',
   'ELEC',
@@ -9,5 +9,5 @@ List<String> Branch=[
   'IT',
   'MECH',
   'MINING',
-  'META',
+  'META', //Choose 10
 ];
