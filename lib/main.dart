@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_community_nitrr/HomeScreen.dart';
+import 'package:flutter_community_nitrr/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,10 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         primaryColor: Colors.red,
         appBarTheme: const AppBarTheme(
-            backgroundColor: Color(0xff10163A)
+          backgroundColor: Color(0xff10163A),
         ),
         scaffoldBackgroundColor: const Color(0xff0C1234),
       ),
@@ -23,4 +24,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_community_nitrr/ProfileList.dart';
-import 'package:flutter_community_nitrr/Widgets/ProfileTab.dart';
+import 'package:flutter_community_nitrr/profile_list.dart';
+import 'package:flutter_community_nitrr/Widgets/profile_tab.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomeScreen extends StatelessWidget {

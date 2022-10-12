@@ -12,25 +12,25 @@ class ProfileTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(6.0),
+      margin: const EdgeInsets.all(6.0),
       decoration: BoxDecoration(
-        color: Color(0xffFBD34C),
+        color: const Color(0xffFBD34C),
         borderRadius: BorderRadius.circular(10.0),
       ),
       width: double.infinity,
       height: 100.0,
       child: Row(
         children: [
-          SizedBox(width: 10.0,),
+          const SizedBox(width: 10.0,),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: CircleAvatar(
-              backgroundColor: Color(0xff10163A),
+              backgroundColor: const Color(0xff10163A),
               radius: 40.0,
               backgroundImage: AssetImage('assets/Images/ProfilePics/$num.png'),
               ),
           ),
-          SizedBox(width: 10.0,),
+          const SizedBox(width: 10.0,),
           Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
